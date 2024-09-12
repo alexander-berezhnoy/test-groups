@@ -14,8 +14,7 @@ export const PanelSummary = styled(AccordionSummary)<PanelStyledProps>`
     cursor: pointer;
     width: 100%;
     margin-top: ${(props) => props.expanded ? "10px" : "0"};
-}
-`
+`;
 
 export const PanelDetails = styled(AccordionDetails)<PanelStyledProps>`
     width: 100%;
@@ -26,7 +25,7 @@ export const PanelDetails = styled(AccordionDetails)<PanelStyledProps>`
     gap: 10px;
     padding: 10px 20px;
     border: ${(props) => props.expanded ? "2px solid #00b8e4" : "none" };
-`
+`;
 
 export const PanelContainer = styled(Accordion)<PanelStyledProps>`
     margin: ${props => props.expanded ? "20px 0" : "10px 0"};
@@ -35,4 +34,4 @@ export const PanelContainer = styled(Accordion)<PanelStyledProps>`
     &:before {
         display: none;
     }
-`
+`;
